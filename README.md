@@ -15,7 +15,7 @@ The system includes:
 - FastAPI backend
 - LLM-based reasoning using LangChain
 - Validated I/O using Pydantic
-- Custom prompt engineering for medical triage
+- Custom prompt engineering for medical triage (The Prompt is Generated using LLM AI)
 
 ## Getting Started
 
@@ -61,3 +61,7 @@ curl -X POST \
 ```
 The API will be available at:
 http://localhost:8000
+
+## Future Development
+- Implement RAG to make sure the recommendation is valid.
+- Increase the amount of department covered.
